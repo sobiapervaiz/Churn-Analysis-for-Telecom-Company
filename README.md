@@ -6,7 +6,7 @@ Churn Analysis for Telecom Company using Python Machine Learning Models includin
 ## Key Results & Business Impact
 - **Model Performance:** Achieved **0.6756 PR-AUC**  using CatBoost, outperforming AdaBoost and Logistic Regression with class weights and regualrization L1 by 0.9%.
 - **Top Insights:** Identified that month-to-month contracts and dependents were the strongest predictors of churn.
-- **Actionable Recommendation:** Targeting the top 20% highest-risk customers with retention offers could save customers from leaving the company.
+- **Actionable Recommendation:** Targeting the highest-risk customers with retention offers could save customers from leaving the company.
 
 ## Visual Highlights
 
@@ -19,6 +19,7 @@ Churn Analysis for Telecom Company using Python Machine Learning Models includin
 ## Dataset & Methodology
 - **Data Source:** [Telco customer churn: IBM dataset]https://www.kaggle.com/datasets/yeanzc/telco-customer-churn-ibm-dataset?resource=download — 7043 rows, 33 features (target variable is Churn Value, imabalnced data with 1869 Churn records available).
 - **Data Preprocessing:** Handled missing values via median imputation, applied one-hot encoding to categorical features, and used stratificat_on to preserve imabalnce.
+- **Data Pipeline:** A data pipeloine is created to automatically handle the outliers, missing values and duplicated rows followed by encoding and scaling for the dataset as per the model.
 - **Models Evaluated:** Logistic Regression (Baseline), Random Forest, Support Vector Machines (SVM), XGBoost, CatBoost.
 
 
