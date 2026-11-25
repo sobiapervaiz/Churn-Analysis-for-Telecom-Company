@@ -1,5 +1,5 @@
 # Churn-Analysis
-Churn Analysis for Telecom Company using Python Machine Learning Models including CatBoost, XGBoost, Linear Regression Models for Classification.
+Churn Analysis for Telecom Company using Python Machine Learning Models including CatBoost, XGBoost, Logistic Regression Models for Classification.
 
 
 
